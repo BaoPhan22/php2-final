@@ -1,0 +1,235 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+#wrapper {
+    /* Kích thước màn hình là 1280 x 720 */
+    width: 100%;
+    height: 100vh;
+}
+
+#top-about {
+    width: 100%;
+    height: 70px;
+    background-color: #f5f5f5;
+}
+
+#top-about h2 {
+    margin-left: 70px;
+    padding-top: 17px;
+    color: #162F45;
+}
+
+.text-line {
+    display: flex;
+    margin-left: 315px;
+}
+
+.text-line .gach {
+    width: 150px;
+    border-top: 3px solid orange;
+    margin-top: 100px;
+}
+
+#about-content {
+    width: 80%;
+    height: auto;
+    margin: auto;
+}
+
+#about-content h2 {
+    text-align: center;
+    padding: 0 40px;
+    margin: 76px 0;
+    font-size: 32px;
+    color: #162F45;
+}
+
+#cot-content {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    border-left: 2px solid orange;
+}
+
+.text-about {
+    width: 60%;
+}
+
+.img-about {
+    width: 40%;
+    float: right;
+    display: block;
+    padding-left: 100px;
+    padding-top: 9px;
+}
+
+.img-about .img {
+    padding-bottom: 50px;
+}
+
+.img-about .img img {
+    width: 100%;
+    height: auto;
+    border: 5px solid #162F45;
+}
+
+.text-about p {
+    text-align: justify;
+    font-size: 14px;
+    line-height: 25px;
+    color: rgb(108, 102, 102);
+    padding-left: 50px;
+}
+
+.text-about p span {
+    font-weight: 600;
+}
+
+#cot-title-contact #title-contact {
+    width: 100%;
+    height: 100px;
+    background-color: #f3d077;
+    filter: opacity(70%);
+}
+
+#cot-title-contact #title-contact h1{
+    text-align: center;
+    padding-top: 27px;
+    color: #000000;
+    font-size: 35px;
+    font-weight: 900;
+}
+
+#cot-title-contact {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    padding-top: 80px;
+}
+
+#cot-contact {
+    width: 75%;
+    margin: auto;
+    display: flex;
+    padding-top: 40px;
+}
+
+#form-contact {
+    width: 43%;
+    float: left;
+    padding-right: 15px;
+    padding-bottom: 150px;
+}
+
+#form-contact hr {
+    color: rgb(108, 102, 102);
+    margin-top: 10px;
+}
+
+#map-contact {
+    width: 55%;
+    float: right;
+    display: block;
+}
+
+.content-contact {
+    width: 100%;
+    margin: 0;
+    padding: 0
+}
+
+.content-contact .item {
+    display: flex;
+    padding: 5px 0;
+}
+
+.content-contact .item i {
+    color: green;
+    padding-top: 5px;
+}
+
+.content-contact .item p {
+    padding-left: 10px;
+    font-size: 13px;
+    line-height: 25px;
+    color: rgb(108, 102, 102);
+}
+
+.form-contact {
+    width: 100%;
+    margin: 0;
+    padding: 0
+}
+
+.form-contact .title-form-contact {
+    padding-top: 22px;
+}
+
+.form-contact .title-form-contact h3 {
+    padding-left: 10px;
+    color: rgb(108, 102, 102);
+}
+
+.form-form .name-email-phone-input {
+    padding-top: 30px;
+    border-bottom: 2px solid orange;
+    width: 85%;
+}
+
+.form-form .name-email-phone-input input {
+    height: 40px;
+    border: none;
+    outline: none;
+    border-bottom: 2px;
+    width: 100%;
+    padding-left: 20px;
+}
+
+.form-form .name-email-phone-input:hover input {
+    transition: 0.4s;
+    background-color: #f5f5f5;
+}
+
+.form-form .noidung-input {
+    padding-top: 30px;
+    border-bottom: 2px solid orange;
+    width: 85%;
+}
+
+.form-form .noidung-input input {
+    height: 100px;
+    border: none;
+    outline: none;
+    border-bottom: 2px;
+    width: 100%;
+    padding-left: 20px;
+}
+
+.form-form .noidung-input:hover input {
+    transition: 0.4s;
+    background-color: #f5f5f5;
+}
+
+.form-form .input-submit {
+    padding-top: 30px;
+}
+
+.form-form .input-submit input {
+    width: 130px;
+    height: 40px;
+    background-color: orange;
+    border: none;
+    border-radius: 18px;
+    color: #f5f5f5;
+}
+
+.form-form .input-submit input:hover {
+    width: 130px;
+    height: 40px;
+    filter: opacity(60%);
+    transition: 0.7s;
+}

@@ -1,0 +1,56 @@
+#thongbao-login {
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 100px;
+    min-height: 200px;
+    margin-bottom: 100px;
+    border: 1px solid #ffffff;
+    background-color: #ffffff;
+  }
+  
+  #thongbao-login h1 {
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 80px;
+  }
+  #thongbao-login h2 {
+    text-align: center;
+  }
+  #thongbao-login .back-index {
+    margin: auto;
+    width: 22%;
+  }
+  
+  #thongbao-login .back-index input {
+    background-color: #007bff;
+    border: none;
+    color: white;
+    height: 40px;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  #thongbao-login #dangxuat {
+    margin: auto;
+    width: 22%;
+    background-color: black;
+    height: 40px;
+    border: none;
+    text-align: center;
+    padding-top: 7px;
+    margin-bottom: 100px;
+  }
+  
+  #thongbao-login .back-index:hover {
+    filter: opacity(80%);
+  }
+  
+  #thongbao-login #dangxuat a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  #thongbao-login #dangxuat:hover {
+    filter: opacity(80%);
+  }

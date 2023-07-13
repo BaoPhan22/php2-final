@@ -1,0 +1,260 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin: auto;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background: #ffffff;
+}
+
+#form1 {
+  box-shadow: 10px 10px 15px 2px #ccc;
+  border-bottom: 10px;
+  margin: 0 20px 20px 100px;
+  padding: 20px 90px;
+  background-color: #ffffff;
+  width: 100%;
+}
+
+#form1 h1 {
+  font-weight: 900;
+  color: #162F45;
+  padding-top: 20px;
+}
+
+#form1 .txt {
+  width: 400px;
+  padding: 6px;
+  border: none;
+  outline: none;
+}
+
+#form1 .txt:hover {
+  background-color: #f5f5f5;
+}
+
+#form1 fieldset {
+  border: none;
+}
+
+#form1 .border-bottom {
+  border-bottom: 2px solid #d9d9d9;
+}
+
+.button {
+  margin-left: 50px;
+  width: 315px;
+  height: 50px;
+  border-radius: 3px;
+  background-color: #162f45;
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.button:hover {
+  filter: opacity(60%);
+  transition: 0.4s;
+  border: none
+}
+
+#fs1 input {
+  padding: 1000px;
+}
+
+#form1 #baoloi {
+  margin: 0px auto;
+  color: red;
+}
+
+#form1 #baoloi {
+  margin: 0px auto;
+  color: red;
+}
+
+#form1 .loi {
+  color: rgb(234, 10, 10);
+}
+
+.spgiohang {
+  height: 50px;
+  width: 50px;
+}
+
+input .name {
+  width: 245px;
+  height: 20px;
+}
+
+#sanpham {
+  justify-content: space-between;
+}
+
+.itemsp {
+  display: flex;
+  padding-top: 20px;
+}
+
+.itemsp .delcart {
+  background-color: rgb(213, 0, 0);
+  width: 17%;
+  height: 30px;
+  text-align: center;
+  float: right;
+  padding-top: 3px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+}
+
+.itemsp .delcart:hover {
+  filter: opacity(80%);
+}
+
+.itemsp .delcart a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.itemsp .giasp {
+  text-align: right;
+  font-size: 20px;
+  color: crimson;
+  ;
+}
+
+.itemsp h5 {
+  color: #162F45;
+  font-weight: 900;
+}
+
+.itemsp .tensp {
+  color: #162F45;
+  font-weight: 600;
+}
+
+.itemsp img {
+  width: 50%;
+  height: auto;
+  margin: auto
+}
+
+.spgiohang {
+  margin-top: 50px;
+}
+
+.itemgia {
+  margin-top: 50px;
+}
+
+.apma {
+  border: 0px;
+  width: 100px;
+  height: 30px;
+  margin-left: 20px;
+}
+
+.magiamgia {
+  margin: 4px;
+}
+
+.magiamgia .name {
+  height: 20px;
+  outline: none;
+  border-top: 1px;
+  border-left: 1px;
+  border-right: 1px;
+  padding-left: 15px
+}
+
+.magiamgia .name:hover {
+  background-color: #f5f5f5;
+}
+
+.magiamgia button {
+  height: 35px;
+  background-color: #162f45;
+  color: #f5f5f5;
+  margin: 15px 0px;
+}
+
+.magiamgia button:hover {
+  filter: opacity(80%)
+}
+
+.magiamgia h4 {
+  color: #162F45;
+  font-weight: 600;
+}
+
+.tdh {
+  display: flex;
+  justify-content: space-between;
+  padding: 25px 0px;
+}
+
+.tdh h4 {
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  font-weight: 600;
+  padding-right: 15px;
+}
+
+.tdh h3 {
+  color: rgb(162, 18, 47);
+  font-size: 20px;
+  font-weight: 600;
+  border-bottom: 2px solid rgb(162, 18, 47);
+  padding-bottom: 10px;
+}
+
+.giadh {
+  margin-top: 20px;
+  display: flex;
+}
+
+.ttdh {
+  display: flex;
+}
+
+.del-allcart {
+  width: 40%;
+  background-color: rgb(213, 0, 0);
+  margin-right: 20px;
+  height: 40px;
+  padding-top: 7px;
+  text-align: center;
+}
+
+.del-allcart a {
+  color: #f5f5f5;
+  text-decoration: none;
+  font-weight: 900;
+}
+
+.continue-cart a {
+  color: #f5f5f5;
+  text-decoration: none;
+  font-weight: 900;
+}
+
+.continue-cart {
+  width: 60%;
+  background-color: #52562e;
+  height: 40px;
+  padding-top: 7px;
+  text-align: center;
+}
+
+.continue-cart:hover {
+  filter: opacity(80%);
+}
+
+.del-allcart:hover {
+  filter: opacity(80%);
+}

@@ -1,0 +1,93 @@
+
+  * {
+    box-sizing: border-box;
+  }      
+  body {
+    width: 100%;
+    padding-top: 80px;
+    background: #eeeeee;
+  }
+  .container {
+    width: 100%;
+    margin: auto;
+    padding-top: 110px;
+  }
+  #form1 {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 10px 10px 15px 2px #ccc;
+    border-bottom: 10px;
+    width: 600px;
+    margin: auto;
+    padding: 45px 80px;
+    margin-bottom: 120px;
+    margin-top: 120px;
+    outline: none;
+  }
+
+  #form1 .txt {
+    width: 100%;
+    padding: 6px;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #ccc;
+  }
+
+#form1 fieldset {
+    border: none;
+    
+}
+#form1 h1 {
+    font-style: bold;
+    font-weight: 900;
+    color: #162F45;
+    padding-bottom: 20px;
+  }
+  #form1 p {
+    color: #162F45;
+  }
+  #form1 p input {
+    height: 35px;
+    margin-top: 10px;
+  }
+  #form1 p input:hover {
+    background-color: #f5f5f5;
+    font-size: 17px;
+  }
+
+.button{
+    margin-top: 25px;
+    margin-bottom: 20px;
+    width: 450px;
+    height: 50px;
+    background-color: #000000;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border: 0px;
+}
+
+#fs1 input{
+    padding: 1000px;
+}
+#form1 #baoloi {
+    margin: 0px auto;
+    color: red;
+}
+
+
+#form1 #baoloi {
+    margin: 0px auto;
+    color: red;
+}
+
+#form1 .loi {
+   color: rgb(234, 10, 10);
+}
+
+.w-5 {
+  width: 49.53%;
+}
+
+#select-box-province {
+  text-align: center;
+}

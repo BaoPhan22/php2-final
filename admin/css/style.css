@@ -1,0 +1,90 @@
+:root {
+  --menu-width: 220px;
+}
+body {
+  padding-left: var(--menu-width);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  width: var(--menu-width);
+  background-color: black;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+}
+nav a {
+  color: white;
+  border-bottom: 1px white solid;
+  display: block;
+  padding: 10px;
+}
+
+.container {
+  margin-left: 0;
+  width: 1024px;
+}
+nav ul li {
+  position: relative;
+}
+nav ul li:hover .sub-menu {
+  display: block;
+}
+.sub-menu {
+  position: absolute;
+  width: 200px;
+  top: 0;
+  left: 210px;
+  background-color: black;
+  display: none;
+  list-style: none;
+}
+nav ul li .sub-menu li:hover .sub-sub-menu {
+  display: block;
+}
+.sub-sub-menu {
+  position: absolute;
+  width: 200px;
+  top: 0;
+  left: 190px;
+  background-color: black;
+  display: none;
+  list-style: none;
+}
+nav h3 {
+  color: antiquewhite;
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+}
+nav > ul > li > a {
+  position: relative;
+}
+span {
+  position: absolute;
+  top: 50;
+  right: 10px;
+  color: white;
+  display: inline-block;
+  text-align: right;
+  transition-property: transform;
+  transition-duration: 0.3s;
+}
+a:hover > span {
+  transform: rotate(-90deg);
+}
+.w50-inline {
+  width: 45%;
+  display: inline-block;
+}
+.active {
+  background: gray;
+}
+.nondisplay {
+  display: none;
+}

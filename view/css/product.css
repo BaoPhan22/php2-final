@@ -1,0 +1,229 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+    cursor: pointer;
+}
+#wp-products-new {
+    padding-top: 40px;
+    padding-right: 100px;
+    padding-left: 50px;
+    padding-bottom: 78px;
+    /* padding: auto; */
+    background-color: #f3d077;
+}
+#wp-products-new h2{
+    text-align: left;
+    margin: 76px 0;
+    border-bottom:1px solid #162F45;
+    padding: 10px;
+    font-size: 32px;
+    color: #162F45;
+}
+#list-products-new {
+    display: flex;
+    list-style: none;
+    margin-left: 200px;
+    flex-wrap: wrap;
+    flex-basis: 25%;
+}
+#list-products-new .item {
+    width: 300px;
+    margin-right: 65px;
+    background-color: #ffff;
+    border-radius: 10px 10px;
+    margin-bottom: 50px;
+    box-shadow: 1px 1px 5px 1px rgb(134, 134, 134);
+}
+#list-products-new .item>img {
+    /* width: 260px; */
+    /* height: 250px; */
+    border-radius: 10px 10px 0 0;
+}
+#list-products-new .item img{
+    display: block;
+    margin-bottom: 10px;
+} 
+#list-products-new .item img:hover{
+    transform: scale(1.09);
+ }
+
+
+
+ #list-products-new .item .infor {
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+ }
+ #list-products-new .item .infor .infor-column .giasp {
+    color: rgb(213, 0, 0);
+    text-align: left;
+    padding: 7px 0;
+    padding-left: 15px;
+    font-size: 15px;
+    font-weight: 900;
+}
+#list-products-new .item .infor .infor-column {
+    width: 100%;
+}
+ #list-products-new .item .infor .hang {
+    width: 30%;
+    float: right;
+    margin: 7px;
+    height: 24px;
+    background-color: #f3d077;
+    color: #000;
+    border-radius: 5px;
+    border: 0;
+    font-size: 11px;
+    text-align: center;
+    padding-top: 3px;
+ }
+
+
+
+#list-products-new .item .name {
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    margin-top: 7px;
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: #6D723C;
+    border-radius: 0 0 10px 10px;
+    border: 0;
+}
+#list-products-new .item .name:hover{transition: 0.8s cubic-bezier(0.075, 0.82, 0.165, 1);background-color:#8f6128;}
+#list-page-new {
+    width: 50%;
+    margin: 0px auto;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+#list-page-new .item{
+    margin: 0px 15px;
+    width: 37px;
+    height: 37px;
+    background-color: #362f2f;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#list-page-new .item a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#wp-products-seller {
+    padding-top: 40px;
+    padding-right: 100px;
+    padding-left: 100px;
+    padding-bottom: 78px;
+    background-color: #E0E7F5;
+}
+#wp-products-seller h2{
+    text-align: left;
+    border-bottom:1px solid orange;
+    margin: 76px 0;
+    font-size: 32px;
+    padding: 10px;
+    color: #162F45;
+}
+#list-products-seller {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+#list-products-seller .item {
+    width: 260px;
+    background-color: #ffff;
+    border-radius: 10px 10px;
+    margin-bottom: 50px;
+    box-shadow: 1px 1px 5px 1px rgb(134, 134, 134);
+}
+#list-products-seller .item>img {
+    width: 260px;
+    height: 280px;
+    border-radius: 10px 10px 0 0;
+}
+#list-products-seller .item img{
+    display: block;
+} 
+#list-products-seller .item img:hover{
+    transform: scale(1.09);
+ } 
+
+ #list-products-seller .item .infor {
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+ }
+ #list-products-seller .item .infor .infor-column p {
+    color: #162F45;
+    text-align: left;
+    padding: 7px 0;
+    padding-left: 15px;
+    font-size: 14px;
+    font-weight: bold;
+}
+#list-products-seller .item .infor .infor-column {
+    width: 70%;
+}
+ #list-products-seller .item .infor .hang {
+    width: 25%;
+    margin: 7px;
+    height: 24px;
+    background-color: #f3d077;
+    color: #000;
+    border-radius: 5px;
+    border: 0;
+    font-size: 11px;
+ }
+
+#list-products-seller .item .name {
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    margin-top: 7px;
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: #6D723C;
+    border-radius: 0 0 10px 10px;
+    border: 0;
+}
+#list-page-seller {
+    width: 50%;
+    margin: 0px auto;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+#list-page-seller .item{
+    margin: 0px 15px;
+    width: 37px;
+    height: 37px;
+    background-color: #362f2f;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#list-page-seller .item a {
+    color: #fff;
+    text-decoration: none;
+}
+.tensanpham{color: #162F45;
+    text-align: left;
+    padding-left: 15px;
+    font-size: 18px;
+    font-weight: 900;
+}
+#timkiem{background-color:#8f6128;border: none;color: white;}
+#timkiem:hover{background-color: #ab7129;}

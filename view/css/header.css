@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Open Sans', 'sans-serif';
+    display: table;
+    overflow-x: none;
+}
+
+/* chia layout */
+.row {
+    /* float: left; */
+    width: 100%;
+    margin: 0;
+    /* display: flex; */
+}
+
+.top {
+    min-height: 85px;
+    background-color: rgba(255, 255, 255, 0.6);
+    position: fixed;
+    border-bottom: 2px solid rgba(110, 110, 110, 0.959);
+    top:0;
+    transition: all 0.5s ease-in-out ;
+    z-index: 99;
+}
+
+.boxcenter {
+    width: 100%;
+    padding-top: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.boxcenter a img {
+    width: 170px;
+    padding-left: 80px;
+    float: right;
+    transition: calc(0.4s);
+}
+.boxcenter a:hover img{
+    filter: opacity(60%);
+}
+
+#menu {
+    list-style: none;
+    display: flex;
+}
+
+#menu .item {
+    margin: 0 25px;
+    padding: 10px 10px;
+}
+
+#menu .item a {
+    color:#232323;
+    text-decoration: none;
+    font-weight: 900;
+    font-size: 17.6px;
+    transition: 0.4s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+#menu .item:hover a {
+    color: #4A6586;
+    font-weight: 900;
+    border-bottom: 4px solid #4A6586;;
+    padding-bottom: 10px;
+    transition: 0.4s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+#action {
+    display: flex;
+    margin-right: 50px;
+    padding-top: 1 0px;
+    list-style: none;
+}
+
+#action .item {
+    margin: 0 10px;
+    padding: 10px 5px;
+}
+
+#action .item a {
+    color:#232323;
+    text-decoration: none;
+    font-weight: 900;
+    font-size: 23px;
+    transition: 0.4s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+#action .item:hover a {
+    color: #4A6586;
+    font-weight: 900; 
+    padding-bottom: 10px;
+    transition: 0.4s cubic-bezier(0.075, 0.82, 0.165, 1);
+    /* font-size: 21px; */
+}
+
+#action .search {
+    margin: 0 10px;
+    padding: 10px 5px;
+    background: #ffffff;
+    position: absolute;
+    padding: 10px;
+    border-radius: 50px;
+}
+
+#action .search a {
+    color: #494949;
+    text-decoration: none;
+    font-weight: 900;
+    font-size: 21px;
+}
+
+#action .search:hover a {
+    color: rgb(249, 198, 31);
+    border-radius: 10px;
+}

@@ -1,0 +1,371 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+body {
+    padding-top: 90px;
+}
+
+#wrapper {
+    /* Kích thước màn hình là 1280 x 720 */
+    width: 100%;
+    min-height: 100px;
+}
+
+#banner {
+    width: 100%;
+    background: linear-gradient(60deg, rgba(149, 108, 12, 1) 19%, rgba(195, 161, 82, 1) 45%, rgba(255, 255, 255, 1) 100%);
+    background-size: cover;
+    height: 540px;
+    display: flex;
+    padding-left: 145px;
+    position: relative;
+    opacity: 0.9 ;
+}
+
+.to-bottom {
+    margin-top:18%;
+    float: right;
+    
+}
+
+.to-bottom img {
+    width: 100%;
+    margin-left: 12%;
+    /* height:70% */
+}
+
+#banner .box-left {
+    width: 50%;
+    /* position: absolute; */
+}
+
+#banner .box-left h2 {
+    font-size: 60px;
+    margin-top: 90px;
+    color: #fdfdfd;
+    line-height: 90px;
+    font-weight: 1000;
+}
+#banner .box-left p {
+    color: #e1e1e1;
+    margin-top: 20px;
+    letter-spacing: 4px;
+}
+
+#banner .box-left button {
+    width: 190px;
+    height: 45px;
+    margin-top: 35px;
+    background-color: #131729;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 17px;
+    border-radius: 20px;
+    transition: 0.4s;
+}
+
+#banner .box-left button a {
+    text-decoration: none;
+    color: #fff;
+}
+
+#banner .box-left button:hover a {
+    color: #000;
+}
+
+#banner .box-left button:hover {
+    background-color: #F6C33E;
+    color: #000;
+}
+
+#wp-about {
+    padding-top: 116px;
+    padding-right: 134px;
+    padding-left: 134px;
+    padding-bottom: 78px;
+    background-color: #E0E7F5;
+    margin-top: -116px;
+}
+
+.text-line {
+    display: flex;
+    margin-left: 315px;
+}
+
+.text-line .gach {
+    width: 150px;
+    border-top: 1.5px solid orange;
+    margin-top: 100px;
+}
+
+#wp-about h2 {
+    text-align: center;
+    padding: 0 40px;
+    margin: 76px 0;
+    font-size: 32px;
+    color: #162F45;
+}
+
+#status {
+    display: flex;
+    margin-top: 80px;
+}
+
+#status-left {
+    margin: 76px 0;
+    padding-left: 100px;
+    padding-right: 50px;
+    width: 70%;
+}
+
+#status-left .text {
+    color: #162F45;
+    font-size: 16px;
+    text-align: justify;
+    line-height: 25px;
+    letter-spacing: 0.5px;
+    padding-left: 30px;
+    border-left: 1.5px solid orange;
+}
+
+#status-left .text-big {
+    padding-bottom: 20px;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+#status-right {
+    margin-right: 100px;
+    padding-left: 70px;
+}
+
+#status-right img {
+    width: 420px;
+    height: auto;
+    border: 5px solid #162F45;
+}
+
+#trademark {
+    margin-top: 100px;
+}
+
+#trademark-left {
+    margin: 76px 0;
+    padding-left: 100px;
+    width: 65%;
+}
+
+#trademark-left img {
+    width: 500px;
+    height: auto;
+    border: 5px solid #162F45;
+}
+
+#background-trademark-right {
+    width: 50%;
+    height: 370px;
+    margin-top: -200px;
+    margin-left: 35%;
+    background-color: #cecfcf;
+    opacity: 70%;
+    position: relative;
+}
+
+#text-trademark-right {
+    width: 42%;
+    margin-top: -330px;
+    margin-left: 470px;
+}
+
+#trademark-right h4 {
+    color: #162F45;
+    font-size: 25px;
+    line-height: 40px;
+    padding-left: 30px;
+    position: relative;
+}
+
+#trademark-right p {
+    width: 100%;
+    color: #162F45;
+    font-size: 16px;
+    text-align: justify;
+    line-height: 25px;
+    padding-left: 30px;
+    letter-spacing: 0.5px;
+    border-left: 1.5px solid orange;
+    position: relative;
+}
+
+#thuonghieu {
+    margin-top: 50px;
+}
+
+.text-thuonghieu {
+    width: 80%;
+    background-color: #162F45;
+    color: #fff;
+    padding: 30px;
+    margin-left: 110px;
+    font-size: 16px;
+    text-align: justify;
+    line-height: 25px;
+    letter-spacing: 0.5px;
+}
+
+#thuonghieu img {
+    width: 80%;
+    height: auto;
+    margin-left: 110px;
+    margin-bottom: 30px;
+}
+
+#wp-products {
+    padding-top: 40px;
+    padding-right: 100px;
+    padding-left: 100px;
+    padding-bottom: 78px;
+    background-color: #f3d077;
+}
+
+#wp-products h2 {
+    text-align: center;
+    margin: 76px 0;
+    font-size: 32px;
+    color: #162F45;
+}
+
+#list-products {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+
+#list-products .item {
+    width: 260px;
+    background-color: #ffff;
+    border-radius: 10px 10px;
+    margin-bottom: 50px;
+    box-shadow: 1px 1px 5px 1px rgb(134, 134, 134);
+}
+
+#list-products .item>img {
+    width: 260px;
+    height: 280px;
+    border-radius: 10px 10px 0 0;
+}
+
+#list-products .item img {
+    display: block;
+
+}
+
+#list-products .item img:hover {
+    transform: scale(1.09);
+}
+
+#list-products .item .name {
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    padding-top: 10px;
+    color: #fff;
+    font-weight: bold;
+    background-color: #575252;
+    border-radius: 0 0 10px 10px;
+}
+
+#list-page {
+    width: 50%;
+    margin: 0px auto;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+
+#list-page .item {
+    margin: 0px 15px;
+    width: 37px;
+    height: 37px;
+    background-color: #362f2f;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#list-page .item a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#comment {
+    width: 1012px;
+    height: 600px;
+    margin: 0px auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+
+#comment h2 {
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 32px;
+    color: #162F45;
+}
+
+#body-comment {
+    padding: 0 80px;
+    display: flex;
+}
+
+#body-comment img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px 10px 0 0;
+    display: block;
+}
+
+#comment-left:hover {
+    width: 50%;
+    margin: 10px;
+    transform: scale(1.05);
+}
+
+#comment-left {
+    width: 49%;
+    margin: 10px;
+}
+
+#comment-right:hover {
+    width: 50%;
+    margin: 10px;
+    transform: scale(1.05);
+}
+
+#comment-right {
+    width: 49%;
+    margin: 10px;
+}
+
+.text-comment {
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    padding-top: 12px;
+    color: #fff;
+    font-weight: bold;
+    background-color: #575252;
+    border-radius: 0 0 10px 10px;
+}
+
+
+/*  */
